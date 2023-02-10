@@ -1,0 +1,59 @@
+section {
+    h2 {
+        margin-bottom: 30px !important;
+    }
+    .proyects__container {
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+        img {
+            border-radius: 10px;
+            border: 2px solid transparent;
+            &:hover {
+                border: 2px solid dodgerblue;
+            }
+        }
+        .proyects__container-div {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            .proyects__container-div-a {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 50px;
+                button {
+                    height: 40px;
+                    width: 160px;
+                    border-radius: 10px;
+                    display: flex;
+                    background-color: #fff;
+                    transition-duration: 0.3s;
+                    a {
+                        font-size: 1rem;
+                        margin: auto 0px;
+                        font-weight: 700;
+                        margin-left: 10px;
+                        transition-duration: 0.3s;
+                        text-decoration: none;
+                        color: black;
+                    }
+                    svg {
+                        margin: auto 0px;
+                        width: 30px;
+                        height: 30px;
+                        margin-left: 5px;
+                    }
+                    &:hover {
+                        background-color: #c4c4c4;
+                        width: 170px;
+                        .repositorioLink {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

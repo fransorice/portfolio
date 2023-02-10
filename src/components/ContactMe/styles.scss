@@ -1,0 +1,46 @@
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .form__container-h2 {
+        font-size: 2.5rem;
+        margin-bottom: 180px;
+    }
+    .contact__container {
+        display: flex;
+        svg {
+            fill: dodgerblue;
+            margin-right: 100px;
+        }
+        .form__container-form {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            label {
+                font-weight: 700;
+                text-align: center;
+            }
+            input {
+                height: 20px;
+                font-weight: 700;
+                font-size: 1rem;
+            }
+            textarea {
+                font-weight: 700;
+                font-size: 1rem;
+                font-family: 'Centra', sans-serif;
+            }
+            input, textarea {
+                margin: 15px 0px;
+            }
+            button {
+                margin-bottom: 150px;
+                font-size: 1.5rem;
+                background: dodgerblue;
+                &:hover {
+                    background: rgb(23, 107, 190);
+                }
+            }
+        }
+    }
+}

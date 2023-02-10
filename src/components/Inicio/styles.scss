@@ -1,0 +1,103 @@
+.inicio__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 180px 0px 320px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+    img {
+        animation: profile__animate 8s ease-in-out infinite 1s;
+        transition-duration: 0.3s;
+        &:hover {
+            width: 370px;
+            height: 370px;
+        }
+    }
+}
+
+.descripcion__container {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    h2 {
+        float: left;
+        position: relative;
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 50px;
+        span {
+            position: absolute;
+            right: 0;
+            width: 0;
+            background: #030c00;
+            border-left: 1px solid #fff;
+            animation: write 4s infinite alternate steps(19);
+        }
+    }
+    h5 {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .conectemos__container {
+        display: flex;
+        justify-content: space-between;
+        button {
+            height: 60px;
+            width: 160px;
+            border-radius: 50px;
+            display: flex;
+            background-color: #fff;
+            transition-duration: 0.3s;
+            p {
+                font-size: 1rem;
+                margin: auto 0px;
+                font-weight: 700;
+                margin-left: 10px;
+                transition-duration: 0.3s;
+            }
+            svg {
+                margin: auto 0px;
+                width: 30px;
+                height: 30px;
+                margin-left: 5px;
+                transition-duration: 0.3s;
+            }
+            &:hover {
+                background-color: #c4c4c4;
+                width: 170px;
+                p {
+                    margin-left: 20px;
+                }
+                svg {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
+
+@keyframes write {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
+
+@keyframes profile__animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}

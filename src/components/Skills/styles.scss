@@ -1,0 +1,52 @@
+section {
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 180px;
+    }
+    h4 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 80px;
+        font-weight: 400;
+    }
+    .iconsSkills__container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 450px;
+        .icon__container {
+            display: flex;
+            flex-direction: column;
+            svg {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .htmlIcon:hover {
+                fill: #f06529;
+            }
+            .cssIcon:hover {
+                fill: #2965f1;
+            }
+            .bootstrapIcon:hover {
+                fill: #6d4e9c;
+            }
+            .sassIcon:hover {
+                fill: #eb75ae;
+            }
+            .javascriptIcon:hover {
+                fill: #ffe854;
+            }
+            .nodeIcon:hover {
+                fill: #80c77a;
+            }
+            p {
+                margin-top: 5px;
+                text-align: center;
+                color: #fff;
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+        }
+    }
+}

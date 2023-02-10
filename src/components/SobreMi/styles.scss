@@ -1,0 +1,75 @@
+.aboutme__article {
+    margin: 180px 0px 280px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 150px;
+    }
+}
+
+
+.aboutme__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    img {
+        border-radius: 10%;
+        border: 2px solid dodgerblue;
+    }
+    .aboutme__container-links {
+        display: flex;
+        flex-direction: column;
+        a {
+            fill: dodgerblue;
+            &:hover {
+                fill: rgb(25, 112, 199);  
+            }
+        }
+    }
+    div h3 {
+        font-size: 2rem;
+    }
+    div h5 {
+        font-weight: 400;
+        font-size: 1.2rem;
+        b {
+            font-weight: 700;  
+        }
+    }
+    div button { 
+            height: 60px;
+            width: 180px;
+            border-radius: 50px;
+            display: flex;
+            background-color: #fff;
+            transition-duration: 0.3s;
+            p {
+                font-size: 1rem;
+                margin: auto 0px;
+                font-weight: 700;
+                margin-left: 10px;
+                transition-duration: 0.3s;
+            }
+            svg {
+                margin: auto 0px;
+                width: 30px;
+                height: 30px;
+                margin-left: 5px;
+                transition-duration: 0.3s;
+                fill: dodgerblue;
+            }
+            &:hover {
+                background-color: #c4c4c4;
+                width: 190px;
+                p {
+                    margin-left: 20px;
+                }
+                svg {
+                    margin-left: 15px;
+                }        
+        }
+    }
+}

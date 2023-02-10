@@ -1,0 +1,37 @@
+.section {
+    padding: 6rem 0 2rem;
+}
+
+.container {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 1.25rem 2rem;
+    border-radius: 1rem;
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: dodgerblue;
+    border-radius: 50px;
+    &:hover {
+        background: rgb(24, 110, 196);
+    }
+}
