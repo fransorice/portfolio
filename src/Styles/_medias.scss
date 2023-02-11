@@ -1,0 +1,79 @@
+@media (max-width: 1839px) {
+    .aboutme__container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1300px;
+    }
+}
+
+@media (max-width: 1640px) {
+    .inicio__container {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 1200px;
+        img {
+            margin-right: 0 !important;
+            margin-left: 60px;
+        }
+        p {
+            width: 600px;
+        }
+        hr {
+            width: 400px;
+            margin: 8px 0px;
+        }
+    }
+}
+
+@media (max-width: 1340px) {
+    .inicio__container {
+        width: 900px;
+        .descripcion__container {
+            width: 500px;
+            p {
+                width: 500px;
+            }
+        }
+        img {
+            margin: 0; 
+        }
+    }
+    .aboutme__container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 900px;
+        h5 {
+            margin: 10px 0px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        .aboutme__container-div {
+            height: 450px;
+        }
+    }
+}
+
+@media (max-width: 1180px) {
+    .proyects__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0 !important;
+    }
+    .contact__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        svg {
+            margin: 0 !important;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .iconsSkills__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
