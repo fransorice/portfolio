@@ -17,7 +17,7 @@ const ContactMe = () => {
         emailjs.sendForm('service_ptoxp5r', 'template_2rumrle', event.target, 'ePmxOXxXJJxZ6qsFt')
         .then(() => {
             Swal.fire({
-                title: 'Mensaje enviado correctamente',
+                title: '¡Mensaje enviado correctamente!',
                 icon: 'success'
               })
               clearForm();
